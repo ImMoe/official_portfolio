@@ -5,8 +5,8 @@ themeToggler.addEventListener('click', toggleTheme)
 
 function toggleTheme() {
   return themeToggler.checked
-    ? changeTheme('#fff', '#111')
-    : changeTheme('#202020', '#9aa5aa')
+    ? changeTheme('#202020', '#9aa5aa')
+    : changeTheme('#fff', '#111')
 }
 
 function changeTheme(background, color) {
